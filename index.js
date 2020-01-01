@@ -10,7 +10,7 @@ let biodata = {
     },
     Akademi :{
         SD : {
-            NamaSekolah : "SDN Girimoyo 01 Karangploso",
+            NamaSekolah : "SD Negeri Girimoyo 01 Karangploso",
             Alamat : {
                 Jalan : "Diponegoro No. 68",
                 Kecamatan: "Karangploso",
@@ -34,9 +34,23 @@ let biodata = {
                 Masuk : "2009/2010",
                 Keluar : "2012/2013"
             }
+        },
+        SMK: {
+            NamaSekolah: "SMK Negeri 2 Singosari",
+            Alamat: {
+                Jalan: "Perusahaan No.20",
+                Kecamatan: "Singosari",
+                Kota: "Malang",
+                Provinsi: "Jawa Timur"
+            },
+            Jurusan : "Multimedia",
+            Tahun: {
+                Masuk: "2012/2013",
+                Keluar: "2013/2015"
+            }
         }
     },
     skills : ['PHP', 'JS', 'CSS3', 'HTML5']
 }
 
-console.log(biodata.Akademi.SMP);
+console.log(biodata);
