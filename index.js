@@ -3,16 +3,18 @@ let biodata = {
     naPang : "Alvan",
     umur : 23,
     Alamat : {
-        Jalan : "Ada Ada Aja 10",
+        Jalan : "Ada Ada Aja No. 10",
+        Kecamatan: "Karangploso",
         Kota : "Malang",
         Provinsi : "Jawa Timur"
     },
     Akademi :{
         SD : {
-            NamaSekolah : "SDN Girimoyo 01",
+            NamaSekolah : "SDN Girimoyo 01 Karangploso",
             Alamat : {
                 Jalan : "Diponegoro No. 68",
-                Kota : "Malang",
+                Kecamatan: "Karangploso",
+                Kota: "Malang",
                 Provinsi : "Jawa Timur"
             },
             Tahun :{
@@ -21,19 +23,20 @@ let biodata = {
             }
         },
         SMP : {
-            NamaSekolah : "SDN Girimoyo 01",
+            NamaSekolah: "Smp Islam Al ma\'arif 01 singosari",
             Alamat : {
-                Jalan : "Diponegoro No. 68",
+                Jalan: "Ronggolawe No.19",
+                Kecamatan : "Singosari",
                 Kota : "Malang",
                 Provinsi : "Jawa Timur"
             },
             Tahun :{
-                Masuk : "2002/2003",
-                Keluar : "2003/2009"
+                Masuk : "2009/2010",
+                Keluar : "2012/2013"
             }
         }
     },
     skills : ['PHP', 'JS', 'CSS3', 'HTML5']
 }
 
-console.log(biodata.Akademi.SD);
+console.log(biodata.Akademi.SMP);
