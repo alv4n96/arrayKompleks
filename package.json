@@ -1,0 +1,22 @@
+{
+  "name": "belajar-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello World\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alv4n96/NudeJS.git"
+  },
+  "keywords": [
+    "Learn"
+  ],
+  "author": "Alvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alv4n96/NudeJS/issues"
+  },
+  "homepage": "https://github.com/alv4n96/NudeJS#readme"
+}
