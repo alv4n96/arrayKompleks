@@ -36,6 +36,7 @@ let biodata = {
             }
         },
         SMK: {
+
             NamaSekolah: "SMK Negeri 2 Singosari",
             Alamat: {
                 Jalan: "Perusahaan No.20",
@@ -48,6 +49,20 @@ let biodata = {
                 Masuk: "2012/2013",
                 Keluar: "2013/2015"
             }
+        },
+        KULIAH: {
+                NamaSekolah: "Universitas Negeri Malang",
+                Alamat: {
+                    Jalan: "Semarang No.5",
+                    Kecamatan: "Lowokwaru",
+                    Kota: "Malang",
+                    Provinsi: "Jawa Timur"
+                },
+                Jurusan: "S1 Pendidikan Teknik Informatika",
+                Tahun: {
+                    Masuk: "2015",
+                    Keluar: "2019"
+                }
         }
     },
     skills : ['PHP', 'JS', 'CSS3', 'HTML5']
