@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./index.js",
     "test": "echo \"Hello World\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alv4n96/NudeJS.git"
+    "url": "git+https://github.com/alv4n96/arrayKompleks.git"
   },
   "keywords": [
     "Learn"
@@ -18,5 +19,5 @@
   "bugs": {
     "url": "https://github.com/alv4n96/NudeJS/issues"
   },
-  "homepage": "https://github.com/alv4n96/NudeJS#readme"
+  "homepage": "https://github.com/alv4n96/arrayKompleks#readme"
 }
